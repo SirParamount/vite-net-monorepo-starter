@@ -1,0 +1,64 @@
+# Ignore node_modules and package lock files
+node_modules/
+**/node_modules/
+package-lock.json
+
+# Ignore build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Ignore distribution folders
+dist/
+**/dist/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore environment and configuration files
+*.env
+*.env.*
+appsettings.Development.json
+
+# Ignore compiled files
+*.dll
+*.pdb
+*.exe
+*.apphost
+*.runtimeconfig.json
+*.deps.json
+*.staticwebassets.endpoints.json
+
+# Ignore test coverage and reports
+coverage/
+*.lcov
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore Tailwind and TypeScript cache
+*.cache/
+*.tsbuildinfo
+
+# Ignore Prettier and ESLint cache
+.prettier-cache/
+.eslintcache
+
+# Ignore certificates
+certs/
+
+# Ignore certificates in packages/config
+packages/config/certs/
