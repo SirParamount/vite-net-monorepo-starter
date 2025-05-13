@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "apps/app1" },
+    { "path": "apps/app2" },
+    { "path": "packages/core" },
+    { "path": "packages/shared" },
+    { "path": "packages/config/typescript/tsconfig.base.json" }
+  ]
+}

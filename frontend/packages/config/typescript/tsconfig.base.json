@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "bundler",
+    "baseUrl": "../../../",
+    "lib": ["dom", "esnext"],
+    "paths": {
+      "@app1/*": ["apps/app1/src/*"],
+      "@app2/*": ["apps/app2/src/*"],
+      "@core/*": ["packages/core/src/*"],
+      "@shared/*": ["packages/shared/src/*"]
+    }
+  }
+}
