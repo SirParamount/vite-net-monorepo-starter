@@ -90,21 +90,8 @@ frontend/  # Frontend monorepo root
 
 To enable HTTPS for local development, follow these steps:
 
-1. **Install mkcert**:
-
-   - macOS: `brew install mkcert`
-   - Windows: `choco install mkcert`
-   - Linux: Use your distro’s package manager.
-
-2. **Run mkcert -install**:
-
-   - This step is required to install the local Certificate Authority (CA) and must be done **once per machine** (requires admin rights):
-     ```bash
-     mkcert -install
-     ```
-
-3. **Generate Certificates**:
-   - After completing the above step, run the following command to generate local certificates:
+1. **Generate Certificates**:
+   - run the following command to generate local certificates:
      ```bash
      npm run cert:generate
      ```
